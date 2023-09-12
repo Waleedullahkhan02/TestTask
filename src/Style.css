@@ -1,0 +1,101 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.commentBox {
+  width: 45%;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  text-align: start;
+}
+
+.comment {
+  width: 96%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.userImg {
+  width: 36px;
+  height: 36px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  width: 91%;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #646464;
+}
+
+.actionGroup {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+.reactions {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.dot {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.reply {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #6590ff;
+}
+
+.comment > input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  background: #f8f9fb;
+  border: none;
+}
+
+.send {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
